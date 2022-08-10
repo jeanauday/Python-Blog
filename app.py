@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, render_template
 
 app = Flask("Hello")
 
@@ -10,15 +10,7 @@ def hello():
 def contatos():
     return "Jean Auday"
 
-    """<html>
-
-        <head> 
-            <title> Contatos </title>
-        </head>
-
-        <body>
-            <p><h3> Jean Auday</p>
-        </body>
+    
 
 
-    </html>"""
+   
